@@ -7,52 +7,9 @@ A Ecommerce Website made with React.js Framework.
 
 [Live Demo](https://e-commerce-website-three-sooty.vercel.app/)
 
-## Features
-
-- Easy to integrate with Backend
-- Fully Responsive
-
 
 ## Screenshots
 
 ![App Screenshot](https://i.ibb.co/fQ293tm/image.png)
-
-
-
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://github.com/durgaprasad118/E-commerce-Website.git
-```
-
-Go to the project directory
-
-```bash
-  cd E-commerce-Website
-```
-
-Install dependencies
-
-```bash
-  npm install
-```
-
-Start the server
-
-```bash
-  npm start
-```
-
-
-
-## Tech Stack
-
-* [React](https://reactjs.org/)
-* [Redux](https://redux.js.org/)
-* [Bootstrap](https://getbootstrap.com/)
-* [Fake Store API](https://fakestoreapi.com/)
-
 
 
