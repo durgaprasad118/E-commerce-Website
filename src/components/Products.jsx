@@ -88,7 +88,7 @@ const Products = () => {
               <div className="card text-center h-100" key={product.id}>
                 <img
                   className="card-img-top p-3"
-                  src={product.images[0]}
+                  src={product.image}
                   alt="Card"
                   height={300}
                 />
@@ -97,7 +97,7 @@ const Products = () => {
                     {product.title.substring(0, 12)}...
                   </h5>
                   <p className="card-text">
-                    {product.description.substring(0, 50)}...
+                    {product.description.substring(0, 90)}...
                   </p>
                 </div>
                 <ul className="list-group list-group-flush">
