@@ -22,7 +22,7 @@ const Products = () => {
   useEffect(() => {
     const getProducts = async () => {
       setLoading(true);
-      const response = await fetch("https://fakestoreapi.com/products/");
+      const response = await fetch("https://dummyjson.com/products");
       if (componentMounted) {
         setData(await response.clone().json());
         setFilter(await response.json());
@@ -88,7 +88,7 @@ const Products = () => {
               <div className="card text-center h-100" key={product.id}>
                 <img
                   className="card-img-top p-3"
-                  src={product.image}
+                  src={product.images[0]}
                   alt="Card"
                   height={300}
                 />
@@ -97,7 +97,7 @@ const Products = () => {
                     {product.title.substring(0, 12)}...
                   </h5>
                   <p className="card-text">
-                    {product.description.substring(0, 90)}...
+                    {product.description.substring(0, 50)}...
                   </p>
                 </div>
                 <ul className="list-group list-group-flush">
